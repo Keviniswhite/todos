@@ -1,4 +1,6 @@
 # todos
+## 运行结果图
+  ![images](https://github.com/Keviniswhite/todos/blob/master/todo.png)
 ## 意义
 - 练习JavaScript 中EcmaScript 语法， 与 Dom Web API 及 Window LocalStorage 存储 及 标签 data- 属性标准套路
   - 例如
@@ -32,4 +34,4 @@
           </div>
        `
     ```
- 
+
