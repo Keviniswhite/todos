@@ -125,8 +125,14 @@ const initTodoLocalStorage = function() {
 }
 
 
+const particleLoad = function() {
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
+}
 const __main = function() {
     initTodoLocalStorage()
     bindEvents()
+    particleLoad()
 }
 __main()
