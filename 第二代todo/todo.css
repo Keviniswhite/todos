@@ -2,10 +2,12 @@
      text-decoration: line-through;
      color: #ccc;
  }
-.write-todo {
-  display: flex;
- justify-content: center;
-}
+ 
+ .flex-todo-submit {
+     display: flex;
+     justify-content: center;
+ }
+ 
  .clearfix {
      overflow: hidden;
  }
@@ -27,7 +29,7 @@
  }
  
  .todo-input {
-     flex:1;
+     flex: 1;
      padding: 6px 12px;
      margin-right: 12px;
      border: 2px solid;
