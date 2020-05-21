@@ -1,0 +1,37 @@
+ .done {
+     text-decoration: line-through;
+     color: #ccc;
+ }
+ 
+ .clearfix {
+     overflow: hidden;
+ }
+ 
+ todo-date {
+     display: block;
+ }
+ 
+ .float-left {
+     float: left;
+ }
+ 
+ .float-default {
+     float: none;
+ }
+ 
+ .margin-t-b {
+     margin: 10px 0
+ }
+ 
+ .todo-input {
+     width: 84%;
+     padding: 6px 12px;
+     margin-right: 12px;
+     border: 2px solid;
+     outline: none;
+     transition: border .3s;
+ }
+ 
+ .todo-input:focus {
+     border: 2px solid crimson;
+ }
